@@ -1,0 +1,12 @@
+:root {
+  --color-favorite: 224 170 0;
+  --color-details: 116 53 134;
+  --color-share: 0 156 233;
+
+  --opacity-bg: 0.1;
+  --opacity-color: 1;
+
+  --color-low: 137 214 255;
+  --color-normal: 140 229 203;
+  --color-high: 255 174 171;
+}
