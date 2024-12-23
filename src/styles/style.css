@@ -1,3 +1,9 @@
+body {
+  font-family: 'MuseoSansCyrl', sans-serif;
+  font-size: 16px;
+  background: rgb(192 192 192 / 0.2);
+}
+
 .section {
   display: grid;
   grid-template-columns: 250px 1fr;
@@ -45,13 +51,18 @@
   grid-template-columns: 1fr minmax(150px, 250px);
   padding: 20px;
   gap: 20px;
-  background: rgb(192 192 192 / 0.2);
   min-block-size: 100%;
+}
+
+.content__title {
+  font-size: 20px;
+  padding-block-end: 10px;
+  color: #222;
 }
 
 .content__cards {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
@@ -62,7 +73,7 @@
   border-radius: 8px;
   border-inline-start: 4px solid #fff;
   box-shadow: 2px 3px 3px rgb(0 0 0 / 0.1);
-  padding: 20px;
+  padding: 25px;
   flex-basis: 300px;
   flex-grow: 1;
 
@@ -70,6 +81,21 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+}
+
+.card__content {
+  display: grid;
+  gap: 10px;
+}
+
+.card__title {
+  font-size: 18px;
+  color: #222;
+  line-height: 1.2;
+}
+
+.card__text {
+  color: #555;
 }
 
 .card__container_low {
